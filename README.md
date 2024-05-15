@@ -1,53 +1,57 @@
-# General Trias Log-in
+# Philippine Standard Geographic Code (PSGC) API
 
-This repository contains the code for the log-in page of the General Trias official website.
+[![created by](https://img.shields.io/badge/created%20by-Justin%20Balaguer-blue.svg?longCache=true&style=flat-square)](https://github.com/justinbalaguer) [![maintained by](https://img.shields.io/badge/maintained%20by-Wareneutron%20Developers-blue.svg?longCache=true&style=flat-square)](https://wareneutron.com) [![Data](https://img.shields.io/badge/Data-September%202020-green.svg?longCache=true&style=flat-square)](https://psa.gov.ph) [![Release](https://img.shields.io/github/release/wareneutron/psgc-api.svg?style=flat-square)](https://github.com/wareneutron/psgc-api/releases) [![Star](https://img.shields.io/github/stars/wareneutron/psgc-api.svg?style=flat-square)](https://github.com/wareneutron/psgc-api/stargazers) [![License](https://img.shields.io/github/license/wareneutron/psgc-api.svg?style=flat-square)](https://github.com/wareneutron/psgc-api/blob/main/LICENSE)
 
-## Table of Contents
+[![Banner](.github/wareneutron_psgc_api_github_banner.jpg)](https://docs.wareneutron.com/psgc-api)
 
-- [Introduction](#introduction)
-- [Technologies](#technologies)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+API used for listing all the region, province, city, municipality, and barangay. All data came from [Philippine Statistics Authority](https://psa.gov.ph). This API includes the total population for each regions etc. and other information.
 
-## Introduction
+## 📖 Documentation
 
-This code represents the log-in page of the General Trias official website. The page provides a simple and intuitive interface for users to log in to their accounts. It includes input fields for email and password, as well as a "Log In" button to initiate the log-in process. Additionally, there is a link to the registration page for users who do not have an account yet.
+<!-- <!-- markdownlint-disable MD033 -->
+The complete documentation can be found here:<br/>
+[![API Docs](https://img.shields.io/badge/API%20Docs-docs.wareneutron.com/psgc--api-blue.svg?longCache=true&style=for-the-badge)](https://docs.wareneutron.com/psgc-api)
+<!-- <!-- markdownlint-enable MD033 -->
 
-## Technologies
+## 🎯 Contributing
 
-The log-in page is built using the following technologies:
+Contributions are welcome, create a pull request to this repo and we'll review your code. Please consider to submit your pull request to the ```dev``` branch. Thank you!
 
-- HTML
-- CSS
+## 🐛 Issues
 
-## Installation
+If you're facing a problem in using PSGC API please let us know by [creating an issue here](https://github.com/wareneutron/genpass-cli/issues/new). We are happy to help you! Don't forget to provide us some screenshot or errors of it, thank you!
 
-To use this code, simply clone the repository to your local machine:
+## 🏆 Sponsors and Supporters
 
-```bash
-git clone https://github.com/your-username/general-trias-login.git
-```
+[![Vercel](https://wrngnz.ga/badge-vercel)](https://vercel.com) [![CircleCI](https://wrngnz.ga/badge-circleci)](https://circleci.com) [![GitBook](https://wrngnz.ga/badge-gitbook)](https://gitbook.io) [![Digital Ocean](https://wrngnz.ga/badge-digitalocean)](https://digitalocean.com)
 
-## Usage
+<!-- markdownlint-disable MD033 -->
+> Love what we do? **[Send us some coffees](https://buymeacoff.ee/wareneutron)**!<br/>
+> Your coffee donation and support will help us to continue working on open-source projects like this.
+<!-- markdownlint-disable MD033 -->
 
-1. Open the cloned repository in your preferred code editor.
-2. Modify the code as needed to customize the log-in page.
-3. Open the `index.html` file in a web browser to view the log-in page.
-4. Enter your email and password to log in.
+## 🌏 Community
 
-## Contributing
+Wanna become one of us? Join today and contribute!
 
-Contributions to this project are welcome. To contribute, please follow these steps:
+[![Community](https://discordapp.com/api/guilds/694612151444439081/widget.png?style=banner3)](https://wareneutron.com/discord)
 
-1. Fork the repository.
-2. Create a new branch.
-3. Make your modifications.
-4. Commit your changes.
-5. Push your branch to your forked repository.
-6. Submit a pull request.
+Looking for community of Filipino tech enthusiasts?
 
-## License
+[![Community](https://discordapp.com/api/guilds/659684980137656340/widget.png?style=banner2)](https://wrngnzga.com/discord)
 
-This code is licensed under the Apache 2.0. Feel free to use and modify it as per your needs, but give credit.
+## 📋 Code of Conduct
+
+Read the project's [code of conduct](./code_of_conduct.md).
+
+## 📃 License
+
+PSGC API is licensed under [GNU General Public License v3](https://opensource.org/licenses/GPL-3.0).
+
+## 📝 Author
+
+PSGC API is created by **[Justin Balaguer](https://github.com/justinbalaguer)**, developed and maintained by [Wareneutron Developers](https://wareneutron.com) with the help of awesome [contributors](https://github.com/wareneutron/psgc-api/graphs/contributors).
+
+---
+
+💻 Made with 💖 and ☕ by [Wareneutron Developers](https://wareneutron.com)

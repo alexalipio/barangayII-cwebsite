@@ -1,58 +1,42 @@
 {
-  "description": "The iconic font, CSS, and SVG framework",
-  "keywords": [
-    "font",
-    "awesome",
-    "fontawesome",
-    "icon",
-    "svg",
-    "bootstrap"
-  ],
-  "homepage": "https://fontawesome.com",
-  "bugs": {
-    "url": "http://github.com/FortAwesome/Font-Awesome/issues"
-  },
-  "author": {
-    "name": "Dave Gandy",
-    "email": "dave@fontawesome.com",
-    "web": "http://twitter.com/davegandy"
-  },
-  "contributors": [
-    {
-      "name": "Brian Talbot",
-      "web": "http://twitter.com/talbs"
+    "name": "psgc_backend",
+    "version": "1.4.0",
+    "description": "",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "node dist/index.js",
+        "startTS": "tsnode src/index.ts",
+        "dev": "nodemon dist/index.js",
+        "devTS": "nodemon --exec ts-node src/index.ts",
+        "watch": "tsc -w",
+        "build": "tsc",
+        "sass": "sass src/styles/style.scss:public/style.css",
+        "sass-watch": "sass --watch src/styles/style.scss:public/style.css"
     },
-    {
-      "name": "Travis Chase",
-      "web": "http://twitter.com/supercodepoet"
+    "keywords": [],
+    "author": "Justin Balaguer",
+    "license": "GPL-3.0",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "express-ipfilter": "^1.1.2",
+        "express-rate-limit": "^5.2.3",
+        "helmet": "^4.2.0",
+        "mongoose": "^5.12.1",
+        "morgan": "^1.10.0",
+        "nanoid": "^3.1.31",
+        "serve-static": "^1.14.1"
     },
-    {
-      "name": "Rob Madole",
-      "web": "http://twitter.com/robmadole"
-    },
-    {
-      "name": "Geremia Taglialatela",
-      "web": "http://twitter.com/gtagliala"
-    },
-    {
-      "name": "Mike Wilkerson",
-      "web": "http://twitter.com/mw77"
+    "devDependencies": {
+        "@types/cors": "^2.8.10",
+        "@types/express": "^4.17.11",
+        "@types/express-rate-limit": "^5.1.1",
+        "@types/morgan": "^1.9.2",
+        "@types/node": "^14.14.35",
+        "nodemon": "^2.0.6",
+        "sass": "^1.32.8",
+        "ts-node": "^9.1.1",
+        "typescript": "^4.2.3"
     }
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/FortAwesome/Font-Awesome"
-  },
-  "engines": {
-    "node": ">=6"
-  },
-  "dependencies": {},
-  "version": "5.15.3",
-  "name": "@fortawesome/fontawesome-free",
-  "main": "js/fontawesome.js",
-  "style": "css/fontawesome.css",
-  "license": "(CC-BY-4.0 AND OFL-1.1 AND MIT)",
-  "scripts": {
-    "postinstall": "node attribution.js"
-  }
 }
