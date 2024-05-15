@@ -1,57 +1,62 @@
-# Philippine Standard Geographic Code (PSGC) API
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
-[![created by](https://img.shields.io/badge/created%20by-Justin%20Balaguer-blue.svg?longCache=true&style=flat-square)](https://github.com/justinbalaguer) [![maintained by](https://img.shields.io/badge/maintained%20by-Wareneutron%20Developers-blue.svg?longCache=true&style=flat-square)](https://wareneutron.com) [![Data](https://img.shields.io/badge/Data-September%202020-green.svg?longCache=true&style=flat-square)](https://psa.gov.ph) [![Release](https://img.shields.io/github/release/wareneutron/psgc-api.svg?style=flat-square)](https://github.com/wareneutron/psgc-api/releases) [![Star](https://img.shields.io/github/stars/wareneutron/psgc-api.svg?style=flat-square)](https://github.com/wareneutron/psgc-api/stargazers) [![License](https://img.shields.io/github/license/wareneutron/psgc-api.svg?style=flat-square)](https://github.com/wareneutron/psgc-api/blob/main/LICENSE)
+<p align="center">
+<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
 
-[![Banner](.github/wareneutron_psgc_api_github_banner.jpg)](https://docs.wareneutron.com/psgc-api)
+## About Laravel
 
-API used for listing all the region, province, city, municipality, and barangay. All data came from [Philippine Statistics Authority](https://psa.gov.ph). This API includes the total population for each regions etc. and other information.
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-## 📖 Documentation
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-<!-- <!-- markdownlint-disable MD033 -->
-The complete documentation can be found here:<br/>
-[![API Docs](https://img.shields.io/badge/API%20Docs-docs.wareneutron.com/psgc--api-blue.svg?longCache=true&style=for-the-badge)](https://docs.wareneutron.com/psgc-api)
-<!-- <!-- markdownlint-enable MD033 -->
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## 🎯 Contributing
+## Learning Laravel
 
-Contributions are welcome, create a pull request to this repo and we'll review your code. Please consider to submit your pull request to the ```dev``` branch. Thank you!
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-## 🐛 Issues
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-If you're facing a problem in using PSGC API please let us know by [creating an issue here](https://github.com/wareneutron/genpass-cli/issues/new). We are happy to help you! Don't forget to provide us some screenshot or errors of it, thank you!
+## Laravel Sponsors
 
-## 🏆 Sponsors and Supporters
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
-[![Vercel](https://wrngnz.ga/badge-vercel)](https://vercel.com) [![CircleCI](https://wrngnz.ga/badge-circleci)](https://circleci.com) [![GitBook](https://wrngnz.ga/badge-gitbook)](https://gitbook.io) [![Digital Ocean](https://wrngnz.ga/badge-digitalocean)](https://digitalocean.com)
+### Premium Partners
 
-<!-- markdownlint-disable MD033 -->
-> Love what we do? **[Send us some coffees](https://buymeacoff.ee/wareneutron)**!<br/>
-> Your coffee donation and support will help us to continue working on open-source projects like this.
-<!-- markdownlint-disable MD033 -->
+- **[Vehikl](https://vehikl.com/)**
+- **[Tighten Co.](https://tighten.co)**
+- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **[64 Robots](https://64robots.com)**
+- **[Cubet Techno Labs](https://cubettech.com)**
+- **[Cyber-Duck](https://cyber-duck.co.uk)**
+- **[Many](https://www.many.co.uk)**
+- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
+- **[DevSquad](https://devsquad.com)**
+- **[Curotec](https://www.curotec.com/)**
+- **[OP.GG](https://op.gg)**
 
-## 🌏 Community
+## Contributing
 
-Wanna become one of us? Join today and contribute!
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-[![Community](https://discordapp.com/api/guilds/694612151444439081/widget.png?style=banner3)](https://wareneutron.com/discord)
+## Code of Conduct
 
-Looking for community of Filipino tech enthusiasts?
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-[![Community](https://discordapp.com/api/guilds/659684980137656340/widget.png?style=banner2)](https://wrngnzga.com/discord)
+## Security Vulnerabilities
 
-## 📋 Code of Conduct
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-Read the project's [code of conduct](./code_of_conduct.md).
+## License
 
-## 📃 License
-
-PSGC API is licensed under [GNU General Public License v3](https://opensource.org/licenses/GPL-3.0).
-
-## 📝 Author
-
-PSGC API is created by **[Justin Balaguer](https://github.com/justinbalaguer)**, developed and maintained by [Wareneutron Developers](https://wareneutron.com) with the help of awesome [contributors](https://github.com/wareneutron/psgc-api/graphs/contributors).
-
----
-
-💻 Made with 💖 and ☕ by [Wareneutron Developers](https://wareneutron.com)
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
